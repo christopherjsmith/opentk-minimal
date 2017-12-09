@@ -14,7 +14,7 @@ namespace OpenTK_Minimal
         [STAThread]
         static void Main()
         {
-
+            new MainWindow().Run(60);
         }
     }
 }
